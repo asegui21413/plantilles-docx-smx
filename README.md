@@ -2,6 +2,18 @@
 
 Plantilles de documents creats amb processador de textos (compatibles amb **WPS Office**, LibreOffice Writer i Microsoft Word).
 
+## Estructura del repositori
+
+```
+plantilles-docx-smx/
+├── Windows/          # Plantilles per a Windows (Word / WPS)
+├── Ubuntu/           # Plantilles per a Ubuntu/Linux (WPS / LibreOffice)
+├── scripts/          # Scripts Node.js per generar les plantilles
+└── README.md
+```
+
+Les plantilles `.docx` són **idèntiques** per a ambdós sistemes (format estàndard). Les carpetes `Windows` i `Ubuntu` serveixen per organitzar-les segons el sistema operatiu on s’utilitzin.
+
 ## Documents inclosos
 
 | Fitxer | Descripció |
